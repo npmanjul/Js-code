@@ -40,7 +40,7 @@ console.log(typeof anotherId);
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-//stack(primitive) && Heap(Non-primitive)
+//stack(primitive) -> copy  && Heap(Non-primitive) -> reference
 
 let myName="Anjul";
 let anotherName=myName;
