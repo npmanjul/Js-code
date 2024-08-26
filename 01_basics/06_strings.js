@@ -16,10 +16,10 @@ const gameName = new String('hitesh-hc-com')
 console.log(gameName.charAt(2));
 console.log(gameName.indexOf('t'));
 
-const newString = gameName.substring(0, 4)
+const newString = gameName.substring(0, 4)  //Treats negative indices as 0  // If start is greater than end, it automatically swaps them.
 console.log(newString);
 
-const anotherString = gameName.slice(-8, 4)
+const anotherString = gameName.slice(-8, 4)    //Allows negative indices  //The start index must be less than the end index. If not, it returns an empty string.
 console.log(anotherString);
 
 const newStringOne = "   hitesh    "
